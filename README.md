@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server that provides Claude with access to Australian Government ICT procurement opportunities from [BuyICT](https://www.buyict.gov.au).
 
+<a href="https://glama.ai/mcp/servers/@ConsentirDev/buyict.mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@ConsentirDev/buyict.mcp/badge" alt="BuyICT Server MCP server" />
+</a>
+
 ## Features
 
 - 🔍 Search procurement opportunities across multiple marketplaces
