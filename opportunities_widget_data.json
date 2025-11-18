@@ -1,0 +1,61 @@
+{
+  "seller": null,
+  "startLoc": 0,
+  "logged_in": false,
+  "base_url": "?id=opportunity_details&table=",
+  "pageItems": [],
+  "marketplaces": {
+    "rfq_tables": [
+      {
+        "is_module": true,
+        "table": "u_pcs_procurement"
+      },
+      {
+        "is_module": false,
+        "table": "u_smp_procurement"
+      },
+      {
+        "is_module": false,
+        "table": "u_cmp_procurement"
+      },
+      {
+        "is_module": true,
+        "table": "u_lh_procurement"
+      },
+      {
+        "is_module": false,
+        "table": "u_tmp_procurement"
+      },
+      {
+        "is_module": false,
+        "table": "u_dc_procurement"
+      },
+      {
+        "is_module": false,
+        "table": "u_hmp_procurement"
+      }
+    ],
+    "rfi_mps": [
+      "02001ea71b653910ab8b0fabdc4bcb85",
+      "1721e561db2f60106529773c34961960",
+      "20d4561edb261c106529773c349619b7",
+      "332c40ab87fd3d10f973a8e50cbb35b1",
+      "75c5b6dbdb078c5031d7413b3a96190e",
+      "9fead22187835510f973a8e50cbb35ee",
+      "cb8a90b6dbea50106529773c349619ac"
+    ]
+  },
+  "searchAll_RFQ": false,
+  "maxSize": 4,
+  "filters": null,
+  "modules": {
+    "dmp2": false,
+    "non_dmp2": false
+  },
+  "recTags": [],
+  "endLoc": 14,
+  "limit": 0,
+  "page": "opportunities",
+  "currentPage": 0,
+  "page_size": "15"
+}

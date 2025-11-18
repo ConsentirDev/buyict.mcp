@@ -1,0 +1,51 @@
+{
+  "portal_id": "8a391964dba04810354e33f43a96199f",
+  "base_url": "https://www.buyict.gov.au",
+  "widget_ids": {
+    "opportunities": "a5bacf7587fc9950f973a8e50cbb35a8"
+  },
+  "marketplaces": [
+    {
+      "code": "PCS",
+      "name": "Panel & Catalogue Services",
+      "table": "u_pcs_procurement",
+      "is_module": true
+    },
+    {
+      "code": "SMP",
+      "name": "Software Marketplace",
+      "table": "u_smp_procurement",
+      "is_module": false
+    },
+    {
+      "code": "CMP",
+      "name": "Cloud Marketplace",
+      "table": "u_cmp_procurement",
+      "is_module": false
+    },
+    {
+      "code": "LH",
+      "name": "Labour Hire",
+      "table": "u_lh_procurement",
+      "is_module": true
+    },
+    {
+      "code": "TMP",
+      "name": "Telecommunications Marketplace",
+      "table": "u_tmp_procurement",
+      "is_module": false
+    },
+    {
+      "code": "DC",
+      "name": "Data Centre",
+      "table": "u_dc_procurement",
+      "is_module": false
+    },
+    {
+      "code": "HMP",
+      "name": "Hardware Marketplace",
+      "table": "u_hmp_procurement",
+      "is_module": false
+    }
+  ]
+}
