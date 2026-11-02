@@ -4,17 +4,17 @@
 
 ### Cookies Required
 ```
-JSESSIONID=8970B7AF8AB970B15F402BC284B10104
-glide_user_route=glide.feb46449bf77c48e81965b7dafe7d783
-glide_node_id_for_js=5c487056090fbed485c337ffe6c56996c05c6a82a72a1d509873e28ba6021468
-VALK_SESSION_ID=EEF44CEE9DE3943109CE6B6A6DC3BC44
+JSESSIONID=<REDACTED>
+glide_user_route=<REDACTED>
+glide_node_id_for_js=<REDACTED>
+VALK_SESSION_ID=<REDACTED>
 ```
 
 ### UX Token (JWT-like)
 ```
 UX-Token={
-  "signature":"MEUCIQC6bWkvAE79BmejBacBPChp0GfpbmzONW8jfdV7Ezo0fQIgCUfETO-YujQnvNlkhRlXy94JBfBdiEnbXwWBge7RmSw=",
-  "token":"eyJhbGciOiJub25lIn0.eyJicm93c2VySWQiOiIzOTIzOGNmMDk0YmU0NTU4OGE4YWI5ZGQ1ZWRkNGFiZCIsImluc3RhbmNlSWQiOiIzZjQ1N2NmYjZmOGI2MTAwZWEwOGQ0ZjQ0YjNlZTQ5ZiIsImV4cGlyeSI6MTc2MzUxNTI3NjY0OCwiaW5zdGFuY2VOYW1lIjoiaWN0cHJvY3VyZW1lbnQifQ."
+  "signature":"<REDACTED>",
+  "token":"<REDACTED>"
 }
 ```
 
@@ -30,7 +30,7 @@ UX-Token={
 
 ### X-UserToken
 ```
-X-UserToken: ce5b659993557a1008c1f2edfaba10723d58a0a4da46e543531b204dfb38f0762195af1b
+X-UserToken: <REDACTED>
 ```
 
 ### Portal ID
@@ -70,3 +70,6 @@ The MCP server will need to:
 Start with **Option A** for MVP, then explore **Option B** for production use.
 
 The service portal pages appear to be accessible without authentication for initial load, but the actual data requires authenticated API calls.
+
+
+> Scrubbed 2026-11-02: session cookies and tokens captured in Nov 2025 were removed from this file (they had already expired). History rewrite pending. Never commit live session values; use .env.
